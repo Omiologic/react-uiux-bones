@@ -12,8 +12,7 @@
     "start-watch": "nodemon server.js --watch server --watch package.json",
     "start-dev": "cross-env NODE_ENV=development npm run start-watch",
     "lint": "esw . --ignore-path .gitignore --ext '.js,.jsx'",
-    "lint-watch": "npm run lint -- -w",
-    "prepush": "npm run lint"
+    "lint-watch": "npm run lint -- -w"
   },
   "author": "Milo Kang <milowebmaster@gmail.com>",
   "license": "ISC",
