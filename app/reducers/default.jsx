@@ -1,10 +1,10 @@
-let initialState = {
+const initialState = {
   test: []
 }
-export default (state=initialState, action) => {
-  switch(action.type) {
+export default (state = initialState, action) => {
+  switch (action.type) {
   case 'DEFAULT':
-    return action.default;
+    return action.default
   }
-  return state;
-};
+  return state
+}

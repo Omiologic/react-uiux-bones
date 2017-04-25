@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node dev",
     "build": "webpack",
     "build-watch": "npm run build -- -w",
     "build-dev": "cross-env NODE_ENV=development npm run build-watch",
@@ -14,7 +13,7 @@
     "start-dev": "cross-env NODE_ENV=development npm run start-watch",
     "lint": "esw . --ignore-path .gitignore --ext '.js,.jsx'",
     "lint-watch": "npm run lint -- -w",
-    "prepush": "npm run lint && npm run test"
+    "prepush": "npm run lint"
   },
   "author": "Milo Kang <milowebmaster@gmail.com>",
   "license": "ISC",
